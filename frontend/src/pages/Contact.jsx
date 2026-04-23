@@ -166,7 +166,7 @@ console.log(apiUrl);
                     alert("New Password and Confirm Password do not match");
                     return;
                   }
-                  const res = await axios.post(`${apiUrl}/inquiries/create`, { ...values, id: JSON.parse(localStorage.getItem("user")).id });
+                  const res = await axios.post(`${apiUrl}/inquiries/create`, { ...values});
                   // console.log(res.data);
                   toast.success('Password changed successfully!');
                   navigate("/");
