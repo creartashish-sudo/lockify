@@ -18,7 +18,7 @@ connectDB();
 // Middleware to parse JSON bodies
 
 app.use(cors({
-  origin: ["https://lockify-frontend.onrender.com/"], // your React URL
+  origin: ["https://lockify-frontend.onrender.com"], // your React URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
