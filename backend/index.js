@@ -18,7 +18,7 @@ connectDB();
 // Middleware to parse JSON bodies
 
 app.use(cors({
-  origin: ["http://localhost:5173"], // your React URL
+  origin: ["*"], // your React URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
