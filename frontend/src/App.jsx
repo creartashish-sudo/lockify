@@ -5,7 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 // import "./assets/vendor/bootstrap/css/bootstrap.min.css"
-import "./assets/vendor/bootstrap/js/bootstrap.min.js"
+// import "./assets/vendor/bootstrap/js/bootstrap.min.js"
 
 // import "./assets/vendor/bootstrap-icons/bootstrap-icons.css"
 // import "./assets/vendor/aos/aos.css"
